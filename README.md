@@ -2,7 +2,7 @@
 
 This file is generated for E2E parsing.
 
-**Document ID:** wyo5h17411i-mmyvdxxw
+**Document ID:** 30f9el7hal7-mn4bmjvp
 
 This document contains a variety of concise, self-contained code examples across multiple programming languages, demonstrating common patterns, data structures, I/O, and control flow to exercise parsing in a realistic yet compact way.
 
@@ -21,13 +21,15 @@ IO.inspect(evens)
 ```
 
 
-## Haskell: Filter and Map
+## Ruby: Word Count
 
-A minimal Haskell example filtering odd numbers and squaring them.
+Counts word frequencies in a sentence using Ruby’s expressive standard library. Simple and readable.
 
-```haskell
-main :: IO ()
-main = print $ map (^2) $ filter odd [1..10]
+```ruby
+text = "to be or not to be"
+counts = Hash.new(0)
+text.split.each { |w| counts[w] += 1 }
+puts counts
 ```
 
 
